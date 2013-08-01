@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "CHEC | Grupo EPM",
+        "img": "../images/sponsors/chec.png",
+        "url": "http://www.chec.com.co/",
+        "type": "std"
+    },
+    {
+        "id": 2,
+        "name": "El malpensante",
+        "img": "../images/sponsors/elMalpensante.png",
+        "url": "http://www.elmalpensante.com.co/",
+        "type": "std"
+    }
+]

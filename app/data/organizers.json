@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Universidad de Caldas",
+        "url": "http://ucaldas.edu.co/",
+        "img": "../images/organizers/ucaldas.png"
+    },
+    {
+        "id": 2,
+        "name": "Editorial Universidad de Caldas",
+        "url": "http://editorialucaldas.edu.co/",
+        "img": "../images/organizers/editorialUcaldas.png"
+    }
+]

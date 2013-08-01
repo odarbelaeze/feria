@@ -1,0 +1,132 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import 'sass-bootstrap/lib/bootstrap';
+@import 'sass-bootstrap/lib/responsive';
+
+// A la mierda con el mundo todo va a ser centrado
+
+body {
+    text-align: center;
+    background: 
+        url('../images/elements/encabezado.png') no-repeat top center, 
+        url('../images/elements/footer.png') no-repeat bottom center,
+        $white;
+}
+
+// custom container yh
+
+.container-narrow {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+.content > hr {
+    margin: 30px 0;
+}
+
+// responsive header
+
+.mastheader {
+    padding: 20px;
+}
+
+.branding {
+    padding: 10px;
+    border-radius: 10px;
+    // background-color: rgba(255,255,255,0.3);
+}
+
+@media(max-width: 768px) {
+    header {
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+}
+
+@media(min-width: 768px) {
+    .mastheader {
+        padding-top: 50px;
+    }
+    .branding {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+}
+
+// Centered dates
+
+#dates {
+    text-align: center;
+}
+
+#dates date {
+    text-align: center;
+}
+
+// Description
+
+#description p.nofirst {
+    display: none;
+}
+
+// Footer
+
+footer {
+    min-height: 200px;
+    padding-bottom: 100px;
+}
+
+// Guests
+
+#guest-description {
+    padding: 20px auto;
+}
+
+@media(max-width: 767px){
+    #guests .row-fluid [class*="span"] {
+        min-height: 0px;
+    }
+}
+
+@media(min-width: 480px) {
+    .media.guest div img {
+        max-width: 64px;
+        max-height: 64px;
+    }
+}
+
+@media(max-width: 480px) {
+    .media.guest div img {
+        max-width: 128px;
+        max-height: 128px;
+    }
+}
+
+.media.guest {
+    padding: 5px;
+    border-radius:5px;
+}
+
+.media.guest.active {
+    background-color: $blueDark;
+    color: $activeWhite;
+}
+
+// Sponsors
+
+.sponsor,
+.organizer {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.sponsor img,
+.organizer img {
+    height: 48px;
+}

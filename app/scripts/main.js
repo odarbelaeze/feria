@@ -19,110 +19,90 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
 
     // Guests random system
 
-    var guests = $('.media.guest');
+    var guests = $('.frame-guest');
 
     // Guest click to describe system
 
-    var img = new Image('../images/elements/rotulo.png');
-    console.log(img);
-
     guests.each(function () {
-        $(this).click(function () {
-            var guest = $(this);
-            var info  = $('#guest-description');
-
-            if(guest.hasClass('active'))
-            {
-                guest.removeClass('active');
-
-                if (!info.is(':hidden')) {
-                    info .slideUp(200);
-                }
-            }
-            else
-            {
-                if (guests.filter('.active').size() > 0) {
-                    guests.filter('.active').removeClass('active');
-                }
-
-                guest.addClass('active');
-
-                if (!info.is(':hidden')) {
-                    info .slideUp(200);
-                    info .html(guest.children('.info').html());
-                    info .slideDown(200);
-                }
-                else
-                {
-                    info .html(guest.children('.info').html());
-                    info .slideDown(200);
-                }
-            }
-        });
+        $(this).click(function () { $(this).toggleClass('active'); });
     });
 
-    // Gest template system and intervals to change
-    // It is sure that no one is left behind
-
-    var guestsAvailable = [];
-
-    $.getJSON('/data/guests.json', function (data) {
-
-        var guestInner = _.template('<div class="pull-left"><img src="<%= guest.img %>" alt="<%= guest.name %>"></div><div class="media-body"><h5 class="media-heading"><%= guest.name %></h5><span><%= guest.role %> -- <%= guest.country %></span></div><div class="info hidden"><%= guest.description %></div>');
-        guestsAvailable = _.map(data, function(guest) { return guestInner({guest: guest}); });
-        _.shuffle(guestsAvailable);
-
-    }).done(function () {
-        guests.each(function () {
-            $(this).html(guestsAvailable.pop());
+    $.get('data/data.json', function (data) {
+        var colors = data.colors;
+        var template = _.template('<div class="info"><div class="name"><strong><%= guest.name %></strong></div><div class="pitch"><%= guest.pitch %></div><div class="country"><%= guest.country %></div></div>');
+        var available = _.map(data.guests, function (guest) {
+            var inner = template({ guest: guest });
+            var bg = '';
+            if (guest.bg) { bg = guest.bg; }
+            else          { bg = colors[_.random(colors.length)]; }
+            var align = '';
+            if (guest.bg && guest.bg.search('left') > 0) { align = 'right'; }
+            else                                         { align = 'left';  }
+            return {
+                inner: inner,
+                bg: bg,
+                align: align
+            };
         });
 
-        var ongoing = false;
-        var doNothing = function() { return; };
-        var refreshGuest = function(thisGuest) {
-            while(ongoing) {
-                window.setTimeout(doNothing, 10);
-            }
-            if (!thisGuest.hasClass('active'))
-            {
-                ongoing = true;
-                var html = thisGuest.html();
-                var newHtml = guestsAvailable.splice(
-                    _.random(guestsAvailable.length - 1), 1
-                )[0];
-                thisGuest.fadeOut('slow', function () {
-                    thisGuest.html(newHtml);
-                    thisGuest.fadeIn('slow');
-                });
-                guestsAvailable.push(html);
-                ongoing = false;
-            }
+        var renderGuest = function (guest, frame) {
+            frame.fadeOut(function () {
+                frame.attr('style',
+                    'background:' + guest.bg + ';' +
+                    'text-align:' + guest.align + ';' +
+                    'background-size:' + 'cover' + ';'
+                );
+                frame.html(guest.inner);
+                frame.fadeIn();
+            });
         };
 
-        guests.each(function () {
-            var thisGuest = $(this);
-            var refreshThisGuest = function() {
-                refreshGuest(thisGuest);
+        var onGoing = false;
+
+        var frames = _.map($('.frame-guest'), function (frame) {
+            return {
+                guest: null,
+                frame: frame
             };
-            window.setInterval(refreshThisGuest, _.random(10000, 15000));
+        });
+
+        _.each(frames, function (frame) {
+            frame.guest = available.splice(
+                _.random(available.length - 1), 1
+            )[0];
+            renderGuest(frame.guest, $(frame.frame));
+
+            window.setInterval(function () {
+                if ($(frame.frame).hasClass('active') || onGoing) { return; }
+
+                onGoing = true;
+                var oldGuest = _.clone(frame.guest);
+                frame.guest = available.splice(
+                    _.random(available.length - 1), 1
+                )[0];
+                renderGuest(frame.guest, $(frame.frame));
+                available.push(oldGuest);
+                onGoing = false;
+            }, 1000 * _.random(10, 15));
+
         });
 
     });
 
     // Get the sponsors
 
-    $.get('data/sponsors.json', function (sponsors) {
+    $.get('data/data.json', function (data) {
         var sponsorInner = _.template('<a href="<%= sponsor.url %>" class="sponsor <%= sponsor.type %>" title="<%= sponsor.name %>" rel="nofollow" target="_blank"><img src="<%= sponsor.img %>" alt="<%= sponsor.name %>"></a>');
-        _.each(_.shuffle(sponsors), function (sponsor) {
+        _.each(_.shuffle(data.sponsors), function (sponsor) {
             $('#sponsors').append(sponsorInner({sponsor : sponsor}));
         });
     });
 
     // Get the organizers
 
-    $.get('data/organizers.json', function (organizers) {
+    $.get('data/data.json', function (data) {
         var organizerInner = _.template('<a href="<%= organizer.url %>" class="organizer <%= organizer.type %>" title="<%= organizer.name %>" rel="nofollow" target="_blank"><img src="<%= organizer.img %>" alt="<%= organizer.name %>"></a>');
-        _.each(organizers, function (organizer) {
+        _.each(data.organizers, function (organizer) {
             $('#organizers').append(organizerInner({ organizer: organizer }));
         });
     });

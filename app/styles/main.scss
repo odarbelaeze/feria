@@ -97,42 +97,47 @@ footer {
     margin: 0;
 }
 
-#guests .row-fluid .span4 {
-    width: 33.3333%;
-}
 
 #guest-description {
     padding: 20px auto;
 }
 
+@media(min-width: 768px) {
+    #guests .row-fluid .span4 {
+        width: 33.3333%;
+    }
+}
+
+
 @media(max-width: 767px){
     #guests .row-fluid [class*="span"] {
         min-height: 0px;
     }
-}
-
-@media(min-width: 480px) {
-    .media.guest div img {
-        max-width: 64px;
-        max-height: 64px;
+    .first-guest-row {
+        min-height: 250px;
     }
 }
 
-@media(max-width: 480px) {
-    .media.guest div img {
-        max-width: 128px;
-        max-height: 128px;
+// Allies
+
+@media(min-width: 480px)
+{
+    .ally, .ally-body {
+        overflow: hidden;
     }
 }
 
-.media.guest {
-    padding: 5px;
-    border-radius:5px;
+.ally img {
+    max-width: 160px;
+    margin: 0 10px;
 }
 
-.media.guest.active {
-    background-color: $blueDark;
-    color: $activeWhite;
+#festivaldemanizales {
+    text-align: left;
+}
+
+#entrevinetas {
+    text-align: right;
 }
 
 // Sponsors

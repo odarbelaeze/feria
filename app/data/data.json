@@ -159,6 +159,56 @@
             "flickr": null,
             "country": "Colombia",
             "bg": "url('../images/guests/CarlosJaramillo.png') top left no-repeat"
+        },
+        {
+            "name": "Bernardo Jaramillo Hoyos",
+            "pitch": "CERLALC - Producción y Circulación del Libro",
+            "url": "http://cerlalc.org/",
+            "facebook": "https://www.facebook.com/cerlalc",
+            "twitter": "https://twitter.com/Cerlalc",
+            "flickr": null,
+            "country": "Colombia",
+            "bg": "url('../images/guests/BernardoJaramillo.png') top left no-repeat"
+        },
+        {
+            "name": "Carlos Palacio - Pala",
+            "pitch": "Poeta y cantante",
+            "url": "http://amnesialand.wordpress.com/",
+            "facebook": "https://www.facebook.com/pages/PALA/48454423987?v=wall",
+            "twitter": "https://twitter.com/palabraspala",
+            "flickr": null,
+            "country": "Colombia",
+            "bg": "url('../images/guests/Pala.png') top left no-repeat"
+        },
+        {
+            "name": "Margarita Arias",
+            "pitch": "Escritora y traductora",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "flickr": null,
+            "country": "Colombia",
+            "bg": "url('../images/guests/MargaritaArias.png') top left no-repeat"
+        },
+        {
+            "name": "Carlos Augusto Montoya",
+            "pitch": "Comunicador social y periodista",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "flickr": null,
+            "country": "Colombia",
+            "bg": null
+        },
+        {
+            "name": "Camilo Giraldo Giraldo",
+            "pitch": "Filósofo y periodista",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "flickr": null,
+            "country": "Colombia",
+            "bg": null
         }
     ],
 

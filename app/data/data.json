@@ -2,27 +2,27 @@
     "guests": [
         {
             "name": "Francisco Hinojosa",
-            "pitch": "Narrador y poeta. Uno de los autores más destacados de literatura infantil y juvenil en lengua española.",
+            "pitch": "Narrador y editor",
             "url": null,
             "facebook": null,
             "twitter": null,
             "flickr": null,
             "country": "México",
-            "bg": null
+            "bg": "url('../images/guests/FranciscoHinojosa.png') top left no-repeat"
         },
         {
             "name": "Vicente Luis Mora",
-            "pitch": "Poeta y ensayista. Destacado crítico literario español estudioso de las relaciones entre literatura, imagen y tecnología.",
+            "pitch": "Poeta y crítico literario",
             "url": "http://vicenteluismora.blogspot.com/",
             "facebook": "http://www.facebook.com/vicenteluismora",
-            "twitter": "http://twitter.com/vicenteluismora",
+            "twitter": "https://twitter.com/MoraVicenteLuis",
             "flickr": null,
             "country": "España",
             "bg": "url('../images/guests/VicenteMora.png') top left no-repeat"
         },
         {
             "name": "Efraím Medina",
-            "pitch": "Escritor y compositor. Un autor iconoclasta, controvertido y excéntrico. Lider de la banda 7 torpes.",
+            "pitch": "Escritor y compositor",
             "url": null,
             "facebook": "https://www.facebook.com/pages/Efraim-Medina-P%C3%A1gina-Oficial/115903968452946",
             "twitter": "https://twitter.com/efraimmedina",
@@ -32,7 +32,7 @@
         },
         {
             "name": "Santiago Gamboa",
-            "pitch": "Escritor y embajador. Viajero incansable. Una de las voces más innovadoras de la nueva narrativa colombiana.",
+            "pitch": "Escritor",
             "url": null,
             "facebook": null,
             "twitter": null,
@@ -42,17 +42,17 @@
         },
         {
             "name": "Carolina Sanín",
-            "pitch": "Escritora. PhD en literatura. ",
+            "pitch": "Escritora",
             "url": null,
             "facebook": "https://es-es.facebook.com/pages/Carolina-San%C3%ADn-Paz-Todo-en-otra-parte/109167289184992",
             "twitter": null,
             "flickr": null,
             "country": "Colombia",
-            "bg": "url('../images/guests/CarolinaSanin.png') top right no-repeat"
+            "bg": "url('../images/guests/CarolinaSanin.png') top left no-repeat"
         },
         {
             "name": "PowerPaola",
-            "pitch": "El referente más sólido del cómic colombiano, ilustradora.",
+            "pitch": "Ilustradora.",
             "url": "http://powerpaola.blogspot.com/",
             "facebook": "",
             "twitter": "https://twitter.com/powerpaola",
@@ -62,7 +62,7 @@
         },
         {
             "name": "Andrés Ospina",
-            "pitch": "Escritor y realizador de radio.",
+            "pitch": "Escritor y realizador de radio",
             "url": "http://andresospina.com/contenidos/",
             "facebook": "",
             "twitter": "https://twitter.com/elBlogotazo",
@@ -72,13 +72,13 @@
         },
         {
             "name": "Omar Ortíz",
-            "pitch": "Abogado, escritor, poeta y editor.",
+            "pitch": "Poeta y editor.",
             "url": "http://omarortiz.blogspot.com/",
             "facebook": "https://www.facebook.com/ortizforero",
             "twitter": null,
             "flickr": null,
             "country": "Colombia",
-            "bg": null
+            "bg": "url('../images/guests/OmarOrtiz.png') top right no-repeat"
         },
         {
             "name": "Jim Pluk",
@@ -88,21 +88,21 @@
             "twitter": null,
             "flickr": "http://www.flickr.com/people/plukart/",
             "country": "Colombia",
-            "bg": null
+            "bg": "url('../images/guests/JimPluk.png') top right no-repeat"
         },
         {
-            "name": "Mariana Gil",
-            "pitch": "Uno de los nombres jóvenes que se ha incluido en la lista de los autores de cómic más renovadores del medio en el país.",
+            "name": "Mariana Gil Rios",
+            "pitch": "Ilustradora",
             "url": "http://chicosconpoderes.blogspot.com/p/about.html ",
             "facebook": null,
             "twitter": "https://twitter.com/ninjamariana",
             "flickr": "http://www.flickr.com/people/pecesestrellasyninjas/",
             "country": "Colombia",
-            "bg": null
+            "bg": "url('../images/guests/MarianaGil.png') top left no-repeat"
         },
         {
             "name": "Catalina González",
-            "pitch": "Escritora, poeta y editora.",
+            "pitch": "Poeta y editora.",
             "url": "http://www.lunalibros.com/",
             "facebook": null,
             "twitter": null,
@@ -112,29 +112,29 @@
         },
         {
             "name": "Carolina Rey",
-            "pitch": "Editora, realizadora de historias y sueños.",
+            "pitch": "Editora Rey+Naranjo",
             "url": "http://www.reynaranjo.net/",
             "facebook": null,
             "twitter": null,
             "flickr": null,
             "country": "Colombia",
-            "bg": null
+            "bg": "url('../images/guests/CarolinaRey.png') top right no-repeat"
         },
         {
             "name": "Tomas David Rubio",
-            "pitch": "Librero, licenciado en Lenguas Modernas.",
+            "pitch": "Librero",
             "url": "http://tresdependientes.blogspot.com/",
-            "facebook": null,
-            "twitter": null,
+            "facebook": "https://www.facebook.com/libelulalibros",
+            "twitter": "https://twitter.com/libelulalibros",
             "flickr": null,
             "country": "Colombia",
             "bg": null
         },
         {
-            "name": "Carlos Gaviria",
-            "pitch": "Abogado, magistrado, político colombiano y escritor.",
+            "name": "Carlos Gaviria Díaz",
+            "pitch": "Escritor y político",
             "url": null,
-            "facebook": null,
+            "facebook": "https://www.facebook.com/carlos.gaviriadiaz.7?fref=ts",
             "twitter": null,
             "flickr": null,
             "country": "Colombia",
@@ -142,23 +142,23 @@
         },
         {
             "name": "Juan Felipe González",
-            "pitch": "Editor.",
-            "url": null,
-            "facebook": null,
-            "twitter": null,
+            "pitch": "Editor Laguna Libros",
+            "url": "http://www.lagunalibros.com/",
+            "facebook": "https://www.facebook.com/lagunalibros",
+            "twitter": "https://twitter.com/lagunalibros",
             "flickr": null,
             "country": "Colombia",
             "bg": null
         },
         {
             "name": "Carlos Augusto Jaramillo",
-            "pitch": "Escritor de cuentos, novela, poesía y editor.",
+            "pitch": "Escritor y editor.",
             "url": null,
             "facebook": null,
             "twitter": null,
             "flickr": null,
             "country": "Colombia",
-            "bg": null
+            "bg": "url('../images/guests/CarlosJaramillo.png') top left no-repeat"
         }
     ],
 

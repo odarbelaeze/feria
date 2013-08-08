@@ -109,6 +109,15 @@ footer {
 }
 
 
+.social-link {
+    margin: 1em 0.5em 0 0;
+}
+
+.social-icon {
+    height: 1.5em;
+    width: auto;
+}
+
 @media(max-width: 767px){
     #guests .row-fluid [class*="span"] {
         min-height: 0px;

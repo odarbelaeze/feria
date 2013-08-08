@@ -23,15 +23,24 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
 
     // Guest click to describe system
 
-    guests.each(function () {
-        $(this).click(function () { $(this).toggleClass('active'); });
-    });
+    // guests.each(function () {
+    //     $(this).click(function () { $(this).toggleClass('active'); });
+    // });
 
     $.get('data/data.json', function (data) {
         var colors = data.colors;
-        var template = _.template('<div class="info"><div class="name"><strong><%= guest.name %></strong></div><div class="pitch"><%= guest.pitch %></div><div class="country"><%= guest.country %></div></div>');
+        var template = _.template('<div class="info"><div class="name"><strong><%= guest.name %></strong></div><div class="pitch"><%= guest.pitch %></div><div class="country"><%= guest.country %></div><div class="social"><%= socialInner %></div></div>');
+        var social = _.template('<a class="social-link" href="<%= url %>" target="_blank"><img class="social-icon" src="images/social/<%= network %>.png" /></a>')
         var available = _.map(data.guests, function (guest) {
-            var inner = template({ guest: guest });
+            var socialInner = "";
+            for (var network in guest.social)
+            {
+                socialInner += social({ 
+                    network: network, 
+                    url: guest.social[network] 
+                });
+            }
+            var inner = template({ guest: guest, socialInner: socialInner });
             var bg = '';
             if (guest.bg) { bg = guest.bg; }
             else          { bg = colors[_.random(colors.length)]; }
@@ -92,7 +101,7 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
     // Get the sponsors
 
     $.get('data/data.json', function (data) {
-        var sponsorInner = _.template('<a href="<%= sponsor.url %>" class="sponsor <%= sponsor.type %>" title="<%= sponsor.name %>" rel="nofollow" target="_blank"><img src="<%= sponsor.img %>" alt="<%= sponsor.name %>"></a>');
+        var sponsorInner = _.template('<a href="<%= sponsor.url %>" class="sponsor sponsor-<%= sponsor.type %>" title="<%= sponsor.name %>" rel="nofollow" target="_blank"><img src="<%= sponsor.img %>" alt="<%= sponsor.name %>"></a>');
         _.each(_.shuffle(data.sponsors), function (sponsor) {
             $('#sponsors').append(sponsorInner({sponsor : sponsor}));
         });
@@ -101,7 +110,7 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
     // Get the organizers
 
     $.get('data/data.json', function (data) {
-        var organizerInner = _.template('<a href="<%= organizer.url %>" class="organizer <%= organizer.type %>" title="<%= organizer.name %>" rel="nofollow" target="_blank"><img src="<%= organizer.img %>" alt="<%= organizer.name %>"></a>');
+        var organizerInner = _.template('<a href="<%= organizer.url %>" class="organizer organizer-<%= organizer.type %>" title="<%= organizer.name %>" rel="nofollow" target="_blank"><img src="<%= organizer.img %>" alt="<%= organizer.name %>"></a>');
         _.each(data.organizers, function (organizer) {
             $('#organizers').append(organizerInner({ organizer: organizer }));
         });

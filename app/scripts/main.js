@@ -19,7 +19,7 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
 
     // Guests random system
 
-    var guests = $('.frame-guest');
+    // var guests = $('.frame-guest');
 
     // Guest click to describe system
 
@@ -30,14 +30,14 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
     $.get('data/data.json', function (data) {
         var colors = data.colors;
         var template = _.template('<div class="info"><div class="name"><strong><%= guest.name %></strong></div><div class="pitch"><%= guest.pitch %></div><div class="country"><%= guest.country %></div><div class="social"><%= socialInner %></div></div>');
-        var social = _.template('<a class="social-link" href="<%= url %>" target="_blank"><img class="social-icon" src="images/social/<%= network %>.png" /></a>')
+        var social = _.template('<a class="social-link" href="<%= url %>" target="_blank"><img class="social-icon" src="images/social/<%= network %>.png" /></a>');
         var available = _.map(data.guests, function (guest) {
-            var socialInner = "";
+            var socialInner = '';
             for (var network in guest.social)
             {
-                socialInner += social({ 
-                    network: network, 
-                    url: guest.social[network] 
+                socialInner += social({
+                    network: network,
+                    url: guest.social[network]
                 });
             }
             var inner = template({ guest: guest, socialInner: socialInner });

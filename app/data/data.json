@@ -25,7 +25,7 @@
                 "facebook": "https://www.facebook.com/pages/Efraim-Medina-P%C3%A1gina-Oficial/115903968452946",
                 "twitter": "https://twitter.com/efraimmedina"
             },
-            "country": "Italia",
+            "country": "Colombia - Italia",
             "bg": "url('../images/guests/EfraimMedina.png') top right no-repeat"
         },
         {
@@ -53,7 +53,7 @@
                 "twitter": "https://twitter.com/powerpaola",
                 "flickr": "http://www.flickr.com/photos/powerpaola/"
             },
-            "country": "Argentina",
+            "country": "Colombia",
             "bg": "url('../images/guests/PowerPaola.png') top right no-repeat"
         },
         {
@@ -180,7 +180,9 @@
         {
             "name": "Margarita Arias",
             "pitch": "Escritora y traductora",
-            "social": {},
+            "social": {
+                "twitter": "https://twitter.com/eavemaria"
+            },
             "country": "Colombia",
             "bg": "url('../images/guests/MargaritaArias.png') top left no-repeat"
         },

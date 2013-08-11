@@ -280,6 +280,18 @@
             "url": "http://www.disenovisual.com/portal/consultorio.html",
             "img": "../images/sponsors/consultorioDiseno.png",
             "type": "std"
+        },
+        {
+            "name": "Colegio San Luis Gonzaga",
+            "url": "http://www.sanluisgonzaga.edu.co/",
+            "img": "../images/sponsors/sanLuis.png",
+            "type": "std"
+        },
+        {
+            "name": "Universidad Autónoma de Manizales",
+            "url": "http://www.autonoma.edu.co/",
+            "img": "../images/sponsors/uam.png",
+            "type": "std"
         }
     ],
 
@@ -288,11 +300,5 @@
     ], 
 
     "unused": [
-        {
-            "name": "Universidad Autónoma de Manizales",
-            "url": "http://www.autonoma.edu.co/",
-            "img": "../images/sponsors/uam.png",
-            "type": "std"
-        }
     ]
 }

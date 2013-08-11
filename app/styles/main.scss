@@ -9,9 +9,19 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
     src: url("fonts/olivier_demo.ttf");
 }
 
-h3 {
+h1, h2, h3, h4 {
     font-family: olivier;
     color: #512716;
+}
+
+h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter {
+    font-size: 200%;
+    vertical-align: middle;
+    color: $red;
+}
+
+h2 {
+    margin: 30px auto;
 }
 
 // Social icons

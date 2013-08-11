@@ -146,6 +146,12 @@ footer {
     color: $activeWhite;
     background-size: 100%;
     padding: 10px;
+    animation-duration: 1s;
+}
+
+.frame-guest.active {
+    box-shadow: 5px 5px 5px $grayDarker;
+    transform: translate(-5px, -5px);
 }
 
 #guests .row-fluid [class*="span"] {

@@ -14,18 +14,10 @@ require.config({
 
 require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
     'use strict';
-    // use app here
 
-
-    // Guests random system
-
-    // var guests = $('.frame-guest');
-
-    // Guest click to describe system
-
-    // guests.each(function () {
-    //     $(this).click(function () { $(this).toggleClass('active'); });
-    // });
+    $('.frame-guest').each(function () {
+        $(this).click(function () { $(this).toggleClass('active'); });
+    });
 
     $.get('data/data.json', function (data) {
         var colors = data.colors;

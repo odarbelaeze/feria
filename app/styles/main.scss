@@ -76,18 +76,23 @@ body {
     max-width: 768px;
 }
 
-.container-narrow > hr {
+hr {
     margin: 30px 0;
 }
 
-.content > hr {
-    margin: 30px 0;
-}
 
 // responsive header
 
-.mastheader {
-    padding: 20px;
+header {
+    max-width: 768px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 7px 5px -5px $black;
 }
 
 .branding {
@@ -96,7 +101,7 @@ body {
     // background-color: rgba(255,255,255,0.3);
 }
 
-@media(max-width: 768px) {
+@media(max-width: 480px) {
     header {
         margin-right: -20px;
         margin-left: -20px;
@@ -104,8 +109,9 @@ body {
 }
 
 @media(min-width: 768px) {
-    .mastheader {
+    header {
         padding-top: 50px;
+        padding-bottom: 40px;
     }
     .branding {
         margin: 0 auto;
@@ -113,28 +119,10 @@ body {
     }
 }
 
-// Centered dates
-
-#dates {
-    text-align: center;
-}
-
-#dates date {
-    text-align: center;
-}
-
 // Description
 
 #description p.nofirst {
     display: none;
-}
-
-// Footer
-
-footer {
-    min-height: 200px;
-    padding-bottom: 70px;
-    margin-top: 100px;
 }
 
 // Guests
@@ -223,4 +211,54 @@ footer {
 .sponsor img,
 .organizer img {
     height: 48px;
+}
+
+// Footer
+
+footer {
+    min-height: 200px;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 70px;
+    padding-top: 20px; 
+    margin-top: 100px;
+    box-shadow: 0px -7px 5px -5px $black;
+}
+
+@media(max-width: 480px) {
+    footer {
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+}
+
+// About
+
+.about section:nth-child(odd) {
+    text-align: left;
+}
+
+.about section:nth-child(even) {
+    text-align: right;
+}
+
+// Activities
+
+.row-fluid .sbs:nth-child(odd) {
+    text-align: left;
+    padding-right: 10px;
+}
+
+.row-fluid .sbs:nth-child(even) {
+    text-align: right;
+    padding-left: 10px;
+}
+
+.in-charge {
+    margin-top: 20px;
+}
+
+.in-charge ul {
+    list-style: none;
 }

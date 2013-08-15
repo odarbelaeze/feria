@@ -1,5 +1,6 @@
 $iconSpritePath: "../images/glyphicons-halflings.png";
 $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+$baseFontSize: 15px;
 
 @import 'sass-bootstrap/lib/bootstrap';
 @import 'sass-bootstrap/lib/responsive';
@@ -7,6 +8,11 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 @font-face {
     font-family: olivier;
     src: url("fonts/olivier_demo.ttf");
+}
+
+@font-face {
+    font-family: frankfurt;
+    src: url("fonts/FRABK.TTF");
 }
 
 h1, h2, h3, h4 {
@@ -20,8 +26,60 @@ h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter {
     color: $red;
 }
 
-h2 {
-    margin: 30px auto;
+// responsive header
+
+header {
+    max-width: 768px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 7px 5px -5px $black;
+}
+
+@media(max-width: 480px) {
+    header {
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+}
+
+@media(min-width: 768px) {
+    header {
+        padding-top: 50px;
+    }
+    .branding {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+}
+
+// Navigation
+
+nav {
+    font-family: olivier;
+    font-size: 150%;
+    margin-top: 40px;
+}
+
+.nav-pills li{
+    width: 25%;
+}
+
+@media(max-width: 768px) {
+    .nav-pills li{
+        width: 50%;
+    }
+}
+
+@media(max-width: 480px) {
+    .nav-pills li{
+        display: block;
+        width: 100%;
+    }
 }
 
 // Social icons
@@ -63,6 +121,7 @@ h2 {
 
 body {
     text-align: center;
+    font-family: frankfurt;
     background: 
         url('../images/elements/encabezado.png') no-repeat top center, 
         url('../images/elements/footer.png') no-repeat bottom center,
@@ -81,43 +140,6 @@ hr {
 }
 
 
-// responsive header
-
-header {
-    max-width: 768px;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    box-shadow: 0px 7px 5px -5px $black;
-}
-
-.branding {
-    padding: 10px;
-    border-radius: 10px;
-    // background-color: rgba(255,255,255,0.3);
-}
-
-@media(max-width: 480px) {
-    header {
-        margin-right: -20px;
-        margin-left: -20px;
-    }
-}
-
-@media(min-width: 768px) {
-    header {
-        padding-top: 50px;
-        padding-bottom: 40px;
-    }
-    .branding {
-        margin: 0 auto;
-        max-width: 600px;
-    }
-}
 
 // Description
 
@@ -245,14 +267,28 @@ footer {
 
 // Activities
 
-.row-fluid .sbs:nth-child(odd) {
-    text-align: left;
-    padding-right: 10px;
+@media(min-width: 480px)
+{
+    .row-fluid .sbs:nth-child(odd) {
+        text-align: left;
+        padding-right: 10px;
+    }
+
+    .row-fluid .sbs:nth-child(even) {
+        text-align: right;
+        padding-left: 10px;
+    }
 }
 
-.row-fluid .sbs:nth-child(even) {
-    text-align: right;
-    padding-left: 10px;
+@media(max-width: 479px)
+{
+    .sbs {
+        text-align: left;
+    }
+}
+
+.sbs {
+    margin-bottom: 50px;
 }
 
 .in-charge {
@@ -261,4 +297,27 @@ footer {
 
 .in-charge ul {
     list-style: none;
+}
+
+// Schedule
+
+#schedule {
+    text-align: left;
+}
+
+.accordion-group {
+    border: 1px solid $grayLighter;
+}
+
+.accordion-inner {
+    border-top: 1px solid $grayLighter;
+}
+
+.accordion-heading {
+    font-family: olivier;
+}
+
+.modal-header {
+    border-bottom: 1px solid $grayLighter;
+    padding-top: 20px;
 }

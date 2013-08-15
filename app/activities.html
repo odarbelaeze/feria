@@ -22,8 +22,19 @@
         <header>
            <div class="container-narrow">
                 <h1>
+                <a href="/">
                     <img src="images/elements/rotulo.png" alt="4ta Feria del Libro de Manizales">
+                </a>
                 </h1>
+
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li><a href="/about.html">Acerca de</a></li>
+                        <li class="active"><a href="/activities.html">Actividades</a></li>
+                        <li><a href="/schedule.html">Programación</a></li>
+                        <li><a href="/exhibitors.html">Expositores</a></li>
+                    </ul>
+                </nav>
             
                 <aside class="social">
                     <a href="https://www.facebook.com/pages/Feria-del-Libro-de-Manizales/158033324333480?fref=ts" class="social-link" target="_blanck">
@@ -49,12 +60,40 @@
                         <h2>Stand trueque de libro</h2>
                         <p>Es una actividad tradicional de la Feria del Libro en la  que los asistentes pueden hacer un intercambio literario en un stand especial, que inició con una donación de 50 libros de la editorial de la Universidad de Caldas y por el que han pasado diferentes títulos de acuerdo con las siguientes reglas:</p>
                         <ol>
-                            <li>Libros en buen estado.</li>
+                            <li>Solo se recibe literatura.</li>
+                            <li>Libros originales en buen estado.</li>
                             <li>No se cambian libros escolares o especializados.</li>
                             <li>No se reciben fotocopias.</li>
-                            <li>No se reciben libros piratas.</li>
-                            <li>No se usa dinero.</li>
+                            <li>No se aceptaran libros que lleven marcas de bibliotecas.</li>
                         </ol>
+
+                        <!-- Button to trigger modal -->
+                        <a href="#truequeLibro" role="button" data-toggle="modal">¿Cómo funciona?</a>
+                         
+                        <!-- Modal -->
+                        <div id="truequeLibro" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="truequeLibroLabel" aria-hidden="true">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 id="truequeLibroLabel">Reglas del stand trueque de libro</h3>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                            El stand será atendido por una persona experta en literatura. A cada libro expuesto se le  asignará  un puntaje que servirá como valor de cambio, de acuerdo con los siguientes criterios:
+                            </p>
+
+                            Estado
+                            Nuevo:  5 puntos
+                            Leído:      3 puntos
+                            Muy leído:  1 punto
+
+                            Popularidad
+                            Mundialmente conocimiento.  5 puntos
+                            Nacionalmente reconocido.   3 puntos
+                            Desconocido pero bueno.     1 punto
+
+                            Aplica condiciones y restricciones.
+
+                          </div>
                     </section>
                 </div>
                 <div class="span6 sbs">

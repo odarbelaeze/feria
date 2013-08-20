@@ -195,10 +195,17 @@
         },
         {
             "name": "Camilo Giraldo Giraldo",
-            "pitch": "Filósofo y periodista",
+            "pitch": "Periodista",
             "social": {},
             "country": "Colombia",
             "bg": null
+        },
+        {
+            "name": "Adolfo Leon Grisales",
+            "pitch": "Filósofo",
+            "social": {},
+            "country": "Colombia",
+            "bg": "url('../images/guests/AdolfoGrisales.png') top left no-repeat"
         }
     ],
 
@@ -291,6 +298,12 @@
             "name": "Universidad Autónoma de Manizales",
             "url": "http://www.autonoma.edu.co/",
             "img": "../images/sponsors/uam.png",
+            "type": "std"
+        },
+        {
+            "name": "Plan Nacional de Lectura y Bibliotecas",
+            "url": "http://www.bibliotecanacional.gov.co/content/plan-nacional-de-lectura-y-bibliotecas-0",
+            "img": "../images/sponsors/fce.png",
             "type": "std"
         }
     ],

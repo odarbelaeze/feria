@@ -253,33 +253,15 @@
             "type": "std"
         },
         {
-            "name": "Banco de la Republica",
+            "name": "Banco de la República",
             "url": "http://www.banrepcultural.org/manizales",
             "img": "../images/sponsors/BanRep.png",
             "type": "std"
         },
         {
-            "name": "Direccion de investigaciones de Manizales",
+            "name": "Dirección de investigaciones de Manizales",
             "url": "http://portal.manizales.unal.edu.co/dima/",
             "img": "../images/sponsors/dimaunal.png",
-            "type": "std"
-        },
-        {
-            "name": "Decanatura de derecho",
-            "url": "http://www.ucaldas.edu.co/",
-            "img": "../images/sponsors/decanaturaDerecho.png",
-            "type": "std"
-        },
-        {
-            "name": "Vicerrectoría Administrativa",
-            "url": "http://www.ucaldas.edu.co/",
-            "img": "../images/sponsors/vicerrectoriaAdministrativa.png",
-            "type": "std"
-        },
-        {
-            "name": "Vicerrectoría de proyección universitaria",
-            "url": "http://www.ucaldas.edu.co/",
-            "img": "../images/sponsors/vicerrectoriaProyeccion.png",
             "type": "std"
         },
         {
@@ -295,14 +277,8 @@
             "type": "std"
         },
         {
-            "name": "Universidad Autónoma de Manizales",
-            "url": "http://www.autonoma.edu.co/",
-            "img": "../images/sponsors/uam.png",
-            "type": "std"
-        },
-        {
-            "name": "Plan Nacional de Lectura y Bibliotecas",
-            "url": "http://www.bibliotecanacional.gov.co/content/plan-nacional-de-lectura-y-bibliotecas-0",
+            "name": "Plan Nacional de Lectura y Escritura",
+            "url": "http://www.colombiaaprende.edu.co/html/micrositios/1752/w3-propertyname-3032.html",
             "img": "../images/sponsors/fce.png",
             "type": "std"
         }

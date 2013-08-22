@@ -49,7 +49,8 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/*.html',
                     '.tmp/styles/{,*/}*.css',
                     '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
-                    '{.tmp,<%= yeoman.app %>}/data/{,*/}*.json',
+                    '{.tmp,<%= yeoman.app %>}/data/{,*/}*.{json,md}',
+                    '{.tmp,<%= yeoman.app %>}/templates/{,*/}*.{html,thtml}',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ]
             }
@@ -301,7 +302,8 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/*',
-                        'data/*'
+                        'data/*',
+                        'templates/*'
                     ]
                 }, {
                     expand: true,

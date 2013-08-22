@@ -6,7 +6,8 @@
     "requirejs": "~2.1.4",
     "modernizr": "~2.6.2",
     "jquery": "~1.9.1",
-    "underscore": "*"
+    "underscore": "~1.5.1",
+    "marked": "~0.2.9"
   },
   "devDependencies": {}
 }

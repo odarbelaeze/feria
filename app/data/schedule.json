@@ -1,0 +1,1611 @@
+{
+    "filters": {
+        "places": {
+            "exp": "Expoferias",
+            "si1": "Salón Infantil 1",
+            "si2": "Salón Infantil 2",
+            "sj1": "Salón Juvenil 1",
+            "sj2": "Salón Juvenil 2",
+            "s1": "Salón 1",
+            "s2": "Salón 2",
+            "s3": "Salón 3",
+            "ssua": "Salón soy un autor",
+            "ahg-uc": "Auditorio Humberto Gallego Gamboa",
+            "atg-uc": "Auditorio Tulio Gómez Estrada",
+            "pdc": "Plazoleta de comidas"
+        },
+        "types": {
+            "protocolario": "Acto protocolario",
+            "arte": "Exposición artísitica",
+            "concierto": "Concierto",
+            "conferencia": "Conferencia",
+            "conversatorio": "Conversatorio",
+            "feria": "Feria",
+            "lanzamiento": "Lanzamiento",
+            "lectura": "Lectura",
+            "musica ": "Música ",
+            "literatura": "literatura",
+            "recital": "Recital",
+            "musical": "musical",
+            "show": "Show",
+            "taller": "Taller",
+            "costo": "Evento con costo",
+            "inscripcion": "Inscripción",
+            "creacion": "Creación",
+            "concurso": "Concurso"
+        },
+        "publics":{
+            "infantil": "Infantil",
+            "general": "General",
+            "juvenil": "Juvenil",
+            "universitarios": "Universitarios",
+            "conversatorio": "Conversatorio",
+            "academico": "Académicos",
+            "inscritos": "Inscritos"
+        }
+    },
+    "schedule": [
+        {
+            "id": "martes",
+            "date": "Martes 3 de Septiembre",
+            "count": 30,
+            "activities": [
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": " 4ta Feria del Libro ", 
+                    "place": "exp", 
+                    "type": ["feria"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": "Exposición escultura -Programa de Artes Plásticas U de Caldas", 
+                    "place": "exp", 
+                    "type": ["arte "], 
+                    "public": ["general"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Lectura del libro Rayito (Editorial Universidad de Caldas, 2013)", 
+                    "place": "si1", 
+                    "type": ["lectura"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Jim Pluck"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "La hora del cuento ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Filosofía para niños", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Palabra Kadabra"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Leer la imagen es mi cuento. Una lectura audiovisual", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller de arte ", 
+                    "place": "si1", 
+                    "type": ["lectura","taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": " Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller del ahorro para niños ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Apreciación literaria ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller de manualidades ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de Competencias ciudadanas", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller de arte", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller música de la vida", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller artístico pintura", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de artes plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Conversatorio de poesía", 
+                    "place": "sj2", 
+                    "type": ["conversatorio"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de grabado", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de artes plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller maletas viajeras", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller de origami", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller de dibujo", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller artístico Soy un autor ", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller artístico Soy un autor", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Escribir desde el exilio/Santiago Gamboa", 
+                    "place": "ahg-uc", 
+                    "type": ["conferencia"], 
+                    "public": ["universitarios"], 
+                    "in_charge": "Ana Milé Ramos Melchor"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Club de Lectura UAM ", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["conversatorio"], 
+                    "in_charge": "Universidad Autónoma de Manizales/María Cecilia"
+                },
+                {
+                    "time": "18:00:00", 
+                    "name": "Inauguración 4ta Feria del Libro", 
+                    "place": "s1", 
+                    "type": ["protocolario"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "18:30:00", 
+                    "name": " La literatura y los viajes/Santiago Gamboa", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                }
+            ]
+        },
+        {
+            "id": "miercoles",
+            "date": "Miércoles 4 de Septiembre",
+            "count": 29,
+            "activities": [
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m", 
+                    "name": " 4ta Feria del Libro ", 
+                    "place": "exp", 
+                    "type": ["feria"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": "Exposición programa Artes plásticas U de Caldas", 
+                    "place": "exp", 
+                    "type": ["arte"], 
+                    "public": ["general"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Lanzamiento del libro Rayito/Editorial Universidad de Caldas", 
+                    "place": "si1", 
+                    "type": ["lanzamiento"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Jim Pluck"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "La hora del cuento ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Filosofía para niños", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Palabra Kadabra"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Aproximación a la poesía", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "La manta de las historias ", 
+                    "place": "si1", 
+                    "type": ["lectura","taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": " Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller del ahorro para niños ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Apreciación literaria ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller Artístico pintura y dibujo", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de Competencias ciudadanas", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller animando a la lectura, el rescate de la cultura escrita ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "La música de la vida", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller de manualidades ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Conversatorio de poesía ", 
+                    "place": "sj2", 
+                    "type": ["conversatorio"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller maletas viajeras", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00 a 17:00:00", 
+                    "name": "Taller creación de fanzines/ Mariana Gil Rios", 
+                    "place": "sj2", 
+                    "type": ["taller","creacion"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Entreviñetas"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller artistico Soy un Autor ", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller artistico Soy un Autor", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "14:00:00  a 17:00:00 ", 
+                    "name": "Intercolegiados Culturales/ Final de Oratoria/Alcaldía de Manizales", 
+                    "place": "s1", 
+                    "type": ["concurso"], 
+                    "public": ["general"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "18:30:00", 
+                    "name": "El héroe perdedor en la literatura. Efraim Medina y Heriberto Fiorillo", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["juvenil"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "9:00:00 a 13:00:00", 
+                    "name": "Taller Escritura científica: La pregunta de investigación de cara a la escritura   (PhD. Adolfo León Grisales)", 
+                    "place": "s2", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["academico"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "El libro y la lectura en América Latina. Bernardo Jaramillo Hoyos y Claudia Villegas", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": "Por confirmar Claudia"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Leer para comprender, escribir para transformar", 
+                    "place": "s2", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE/Bibiana Andrea Victorino"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                }
+            ]
+        },
+        {
+            "id": "jueves",
+            "date": "Jueves 5 de Septiembre",
+            "count": 38,
+            "activities": [
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m", 
+                    "name": " 4ta Feria del Libro ", 
+                    "place": "exp", 
+                    "type": ["feria"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": "Exposición programa Artes plásticas U de Caldas", 
+                    "place": "exp", 
+                    "type": ["arte"], 
+                    "public": ["general"], 
+                    "in_charge": "Ayda nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Lectura del libro Rayito (Editorial Universidad de Caldas,  2013)", 
+                    "place": "si1", 
+                    "type": ["lectura"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Jim Pluck"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "La hora del cuento ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Filosofía para niños", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Palabra Kadabra"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Aproximación a la lectura desde las Tics", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "La manta de las historias ", 
+                    "place": "si1", 
+                    "type": ["lectura","taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": " Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller del ahorro para niños ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Apreciación literaria ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller de manualidades ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de competencias ciudadanas", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller de arte", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "La música de la vida", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller artístico de origami", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Conversatorio de poesía ", 
+                    "place": "sj2", 
+                    "type": ["conversatorio"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de grabado", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller maletas viajeras", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller Artístico dibujo", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller Artístico pintura", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller artístico Soy un Autor ", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller artístico Soy un Autor", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Show Canino Policia Nacional", 
+                    "place": "pdc", 
+                    "type": ["show"], 
+                    "public": ["general"], 
+                    "in_charge": "Escuela de Carabineros"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Intercolegiados Culturales/ Final de Deletreo Infantil/Alcaldía de Manizales", 
+                    "place": "s1", 
+                    "type": ["concurso"], 
+                    "public": ["general"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Intercolegiados Culturales/ Final de Deletreo Juvenil/Alcaldía de Manizales", 
+                    "place": "s1", 
+                    "type": ["concurso"], 
+                    "public": ["general"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Conversatorio sobre escribir y editar para jovenes/ Carlos Augusto Jaramillo Parra y Francisco Hinojosa", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["juvenil"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "18:30:00", 
+                    "name": "Lanzamiento del Libro Mito o logos. Hacia la república de Platón de Carlos Gaviria Diaz/ Editorial Luna libros ", 
+                    "place": "s1", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "9:00:00 a 13:00:00", 
+                    "name": "Taller de escritura científica: La técnica de la escritura técnica. El Artículo científico: qué es y cómo se debe presentar Mg. Camilo Giraldo", 
+                    "place": "s2", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["academico"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Presentación del libro: Mabungú. Triunfo. Poemas bilingues palenque español. De María Teresa Ramírez.", 
+                    "place": "s2", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "Apidama Ediciones"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Putas para un viajero fatal/Fernando Baena", 
+                    "place": "s2", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "E-DITORIAL 531"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Conversatorio ganador Concurso Nacional de Cuento ", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE/Bibiana Andrea Victorino"
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Taller sobre Andrés Caicedo: escritor homenajeado del Concurso Nacional de Cuento", 
+                    "place": "s2", 
+                    "type": ["música","literatura"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "PNLE/Fabián Martinez"
+                },
+                {
+                    "time": "18:30:00", 
+                    "name": "Conversatorio sobre Ximenez/Andrés Ospina y Juan Felipe González", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "09:00:00 a.m. a 13:00 p.m.", 
+                    "name": "Taller jóvenes escritores", 
+                    "place": "s3", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["academico"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                }
+            ]
+        },
+        {
+            "id": "viernes",
+            "date": "Viernes 6 de Septiembre",
+            "count": 39,
+            "activities": [
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m", 
+                    "name": " 4ta Feria del Libro ", 
+                    "place": "exp", 
+                    "type": ["feria"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": "Exposición programa Artes plásticas U de Caldas", 
+                    "place": "exp", 
+                    "type": ["arte"], 
+                    "public": ["general"], 
+                    "in_charge": "Programa Artes Plásticas/Ayda nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Lectura del libro Rayito (Editorial Universidad de Caldas, 2013)", 
+                "place": "si1", 
+                    "type": ["lectura"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Jim Pluck"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "La hora del cuento ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller de Filosofía para niños", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Palabra Kadabra"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Leer la imagen es mi cuento", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "La manta de las historias ", 
+                    "place": "si1", 
+                    "type": ["lectura","taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE/Fabián Martinez"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE/Fabián Martinez"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller del ahorro para niños ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Apreciación literaria ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller de manualidades ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de competencias ciudadanas", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller animando a la lectura, el rescate de la cultura escrita ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "La música de la vida", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller Artístico dibujo", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Taller Artístico Origami", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Espacio de poesía ", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller maletas viajeras", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00 a 17:00:00", 
+                    "name": "Taller creación de Fanzines", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Entreviñetas"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller artístico Soy un Autor ", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller artístico Soy un Autor", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Orquesta Policia Nacional", 
+                    "place": "pdc", 
+                    "type": ["concierto"], 
+                    "public": ["general"], 
+                    "in_charge": "Escuela de Carabineros"
+                },
+                {
+                    "time": "9:00:00", 
+                    "name": "Conversatorio/ Carlos Gaviria Diaz", 
+                    "place": "atg-uc", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "9:00:00 a 13:00:00", 
+                    "name": "Taller de Ilustración/ Mariana Gil Ríos ", 
+                    "place": "s1", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Lanzamiento del libro investigación en la administración rural de Elmer Castaño/Editorial Universidad de Caldas", 
+                    "place": "s1", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "Luis Miguel Gallego Sepúlveda"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Lanzamiento de los libros La gestión de festivales escénicos: conceptos, miradas y debates y  Producción de espectáculos escénicos  de Marisa de León", 
+                    "place": "s1", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "Eventos académicos/Festival Internacional de teatro"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Lanzamiento del libro Laboratorio de producción teatral 1, técnicas de gestión y producción aplicada a proyectos alternativos de Gustavo Schraier", 
+                    "place": "s1", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "Eventos académicos/Festival Internacional de teatro"
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Conversatorio Ilustrar para la web/ Powerpaola, Jim Pluk y Mariana Gil Rios", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": "Luna Libros/Catalina González"
+                },
+                {
+                    "time": "18:30:00", 
+                    "name": "Conversatorio sobre historia y literatura/Andrés Ospina y Juan Esteban Constaín", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "09:00:00 a.m. a 1:00 p.m.", 
+                    "name": "Taller de escritura científica: Argumentación y lectura crítica. Ph. D. Carlos Augusto Montoya", 
+                    "place": "s2", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["academico"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Conversatorio escribir y editar poesía/ Catalina Gonzalez y Juan Carlos Acevedo", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "15:00:00 a 17:00:00", 
+                    "name": "Mini taller de cuento: Té de Cuentos: Ven y escribe un cuento corto mientras tomas el té", 
+                    "place": "s2", 
+                    "type": ["taller","inscripción"], 
+                    "public": ["general"], 
+                    "in_charge": "Los Chicos del Jardín/ David Carmona Patiño"
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Deconstruyendo a Andrés Caicedo", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE/Fabián Martinez"
+                },
+                {
+                    "time": "18:00:00", 
+                    "name": " Lanzamiento del Libro Proceso de paz de Fernando Bermúdez", 
+                    "place": "s2", 
+                    "type": ["lanzamiento"], 
+                    "public": ["general"], 
+                    "in_charge": "Fernando Bermúdez"
+                },
+                {
+                    "time": "09:00:00 a.m. a 13:00 p.m.", 
+                    "name": "Taller jóvenes escritores", 
+                    "place": "s3", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["inscritos"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                }
+            ]
+        },
+        {
+            "id": "sabado",
+            "date": "Sábado 7 de Septiembre",
+            "count": 29,
+            "activities": [
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m", 
+                    "name": " 4ta Feria del Libro ", 
+                    "place": "exp", 
+                    "type": ["feria"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": "Exposición programa Artes plásticas U de Caldas", 
+                    "place": "exp", 
+                    "type": ["arte"], 
+                    "public": ["general"], 
+                    "in_charge": "Ayda nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Lectura del libro Rayito (Editorial Universidad de Caldas, 2013)", 
+                    "place": "si1", 
+                    "type": ["lectura"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Jim Pluck"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "La hora del cuento ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Filosofía para niños", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Palabra Kadabra"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Aproximación a la lectura desde las Tics ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "La manta de las historias ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller del ahorro para niños ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Apreciación literaria ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Talleres de manualidades ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de Competencias ciudadanas", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "La música de la vida", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Espacio de poesia ", 
+                    "place": "sj2", 
+                    "type": ["conversatorio"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de grabado", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Programa de Artes Plásticas/Ayda Nidia Ocampo"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller maletas viajeras", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00 a 18:00:00 pm ", 
+                    "name": "Taller artístico de ilustración/Taller Abierto ", 
+                    "place": "ssua", 
+                    "type": ["taller","costo"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "18:30:00", 
+                    "name": "Recital Palabra cantada Carlos Palacio Pala / Medellín", 
+                    "place": "s1", 
+                    "type": ["recital","musical"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "09:00:00 a.m. a 1:00 p.m.", 
+                    "name": "Taller de escritura científica: Redacción. Preescritura, escritura y revisión Mg. Margarita Arias", 
+                    "place": "s2", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["inscritos"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "14:00 a 17:00:00", 
+                    "name": "Taller de Ilustracion/ Powerpaola", 
+                    "place": "s2", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Converatorio sobre la literatura y los nuevos medios/ Vicente Luis Mora ", 
+                    "place": "s2", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "09:00:00 a.m. a 13:00 p.m.", 
+                    "name": "Taller jóvenes escritores", 
+                    "place": "s3", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["general"], 
+                    "in_charge": "Luis Miguel Gallego Sapúlveda"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Conversatorio sobre periodismo y literatura/Carolina Sanín y Juan Carlos Acevedo", 
+                    "place": "s3", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller sobre el uso de la colección semilla del plan Nacional de Lectura y Escritura, dirigido a docentes, mediadores y acompañantes", 
+                    "place": "s3", 
+                    "type": ["taller"], 
+                    "public": ["general"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "18:00:00", 
+                    "name": "Mesa de edición/ Catalina González, Juan Felipe González, Carlos Augusto Jaramillo; Fernando Alonso Ramirez y Carolina Rey", 
+                    "place": "s3", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                }
+            ]
+        },
+        {
+            "id": "domingo",
+            "date": "Domingo 8 de Septiembre",
+            "count": 25,
+            "activities": [
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m", 
+                    "name": " 4ta Feria del Libro ", 
+                    "place": "exp", 
+                    "type": ["feria"], 
+                    "public": ["general"], 
+                    "in_charge": "Ana Carolina Guacaneme"
+                },
+                {
+                    "time": "10:00:00 a.m. a 20:00 p.m.", 
+                    "name": "Exposición programa Artes plásticas U de Caldas", 
+                    "place": "exp", 
+                    "type": ["arte"], 
+                    "public": ["general"], 
+                    "in_charge": "Ayda nidia Ocampo"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Lectura del libro Rayito/Editorial Universidad de Caldas", 
+                    "place": "si1", 
+                    "type": ["lectura"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Jimpluck"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "La hora del cuento ", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller de Filosofía para niños", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Palabra Kadabra"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Leer la imagen es mi cuento. Una lectura audiovisual", 
+                    "place": "si1", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Taller la manta de las historias ", 
+                    "place": "si1", 
+                    "type": ["lectura","taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": " Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Sembrando hábitos lectores. Colección Semilla del Plan Nacional de Lectura y Escritura", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "PNLE Fabián Martinez"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller del ahorro para niños ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Apreciación literaria ", 
+                    "place": "si2", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Talleres de manualidades ", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Biblioteca Pública Municipal/Luisa Fernanda Zuluaga"
+                },
+                {
+                    "time": "11:00:00", 
+                    "name": "Taller de competencias ciudadanas", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Narración de mitos y cuentería", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "La música de la vida", 
+                    "place": "sj1", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Espacio de poesía", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Colegio San Luis Gonzaga"
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Taller maletas viajeras", 
+                    "place": "sj2", 
+                    "type": ["taller"], 
+                    "public": ["juvenil"], 
+                    "in_charge": "Banco de la república"
+                },
+                {
+                    "time": "10:00:00", 
+                    "name": "Taller artístico Soy un Autor ", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Taller artístico Soy un Autor", 
+                    "place": "ssua", 
+                    "type": ["taller"], 
+                    "public": ["infantil"], 
+                    "in_charge": "Maria Paulina Restrepo"
+                },
+                {
+                    "time": "9:00 a 13:00:00", 
+                    "name": "Taller de Ilustracion/Jim Pluk", 
+                    "place": "s1", 
+                    "type": ["taller","inscripcion"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "14:00:00", 
+                    "name": "Conversatorio Escribir y editar, las dos caras de la moneda/ Omar Ortíz Forero y Carlos Augusto Jaramillo Parra", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "15:00:00", 
+                    "name": "Recital de Poesía/ Daniel Ballesteros, Ana Suárez Herrera, Vanessa Marulanda Cardona, Catherine López, Jean Paul Samon, María Paz Gómez, Maria Paz Gómez", 
+                    "place": "s1", 
+                    "type": ["recital"], 
+                    "public": ["general"], 
+                    "in_charge": "María Paz Gómez Gaviria "
+                },
+                {
+                    "time": "16:00:00", 
+                    "name": "Conversatorio el oficio del librero: Tomás David Rubio y Christian Camilo Londoño", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                },
+                {
+                    "time": "17:00:00", 
+                    "name": "Conversatorio  la inspiración desde cualquier perspectiva/Gustavo López", 
+                    "place": "s1", 
+                    "type": ["conversatorio"], 
+                    "public": ["general"], 
+                    "in_charge": " "
+                }
+            ]
+        }
+    ]
+}

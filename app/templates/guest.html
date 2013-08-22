@@ -6,7 +6,7 @@
     <div class="country"><%= guest.country %></div>
     <div class="social">
         <% for (var network in guest.social) { %>
-        <a class="social-link" href="<%= guest.social[network] %>" target="_blank">
+        <a class="social-link" href="<%= guest.social[network] %>" target="_blank" rel="nofollow">
             <img class="social-icon" src="images/social/<%= network %>.png" />
         </a>
         <% } %>

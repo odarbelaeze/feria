@@ -1,0 +1,69 @@
+<div id="schedule-accordion" class="accordion">
+    <% _.each(schedule.schedule, function(day) { %>
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#schedule-accordion" href="#day-<%= day.id %>">
+                <%= day.date %>
+            </a>
+        </div>
+        <div id="day-<%= day.id %>" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <table class="table-hover table-condensed">
+                    <tbody>
+                        <% _.each(day.activities, function(activitie) { %>
+                        <tr class="activitie place-<%= activitie.place %> <% _.each(activitie.type, function(type) { %> type-<%= type %> <% }) %> <% _.each(activitie.public, function(public) { %> public-<%= public %> <% }) %>">
+                            <th><%= activitie.time.substr(0,5) %></th>
+                            <td><%= schedule.filters.places[activitie.place] %></td>
+                            <td><%= activitie.name %></td>
+                        </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <% }) %>
+</div>
+<div id="schedule-filters">
+    <div class="row-fluid">
+        <div class="span4">
+            <h4>Lugares</h4>
+            <form class="form-horizontal">
+                <div class="control-group">
+                    <% for(var place in schedule.filters.places) { %>
+                    <label class="check-box">
+                        <input class="filter-checkbox place-checkbox" id="place-<%= place %>" type="checkbox" data-toggle="place-<%= place %>">
+                        <%= schedule.filters.places[place] %>
+                    </label>
+                    <% } %>
+                </div>
+            </form>
+        </div>
+        <div class="span4">
+            <h4>Público</h4>
+            <form action="" class="form-horizontal">
+                <div class="control-group">
+                    <% for(var type in schedule.filters.types) { %>
+                    <label class="check-box">
+                        <input class="filter-checkbox type-checkbox" id="type-<%= type %>" type="checkbox" data-toggle="type-<%= type %>">
+                        <%= schedule.filters.types[type] %>
+                    </label>
+                    <% } %>
+                </div>
+            </form>
+        </div>
+        <div class="span4">
+            <h4>Típo de actividad</h4>
+            <form action="" class="form-horizontal">
+                <div class="control-group">
+                    <% for(var public in schedule.filters.publics) { %>
+                    <label class="check-box">
+                        <input class="filter-checkbox public-checkbox" id="public-<%= public %>" type="checkbox" data-toggle="public-<%= public %>">
+                        <%= schedule.filters.publics[public] %>
+                    </label>
+                    <% } %>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -2,6 +2,7 @@ require.config({
     paths: {
         jquery: '../bower_components/jquery/jquery',
         underscore: '../bower_components/underscore/underscore',
+        marked: '../bower_components/marked/lib/marked',
         bootstrap: 'vendor/bootstrap'
     },
     shim: {
@@ -12,7 +13,7 @@ require.config({
     }
 });
 
-require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
+require(['app', 'jquery', 'marked', 'underscore', 'bootstrap'], function (app, $) {
     'use strict';
 
     var colors = ['#005c78', '#f39200', '#e84e0e', '#c51a1b', '#73361c'];
@@ -83,7 +84,7 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
                 });
             });
         });
-    };
+    }
 
     // Get the sponsors
 
@@ -94,23 +95,49 @@ require(['app', 'jquery', 'underscore', 'bootstrap'], function (app, $) {
                 _.each(_.shuffle(data), function (sponsor) {
                     $('#sponsors').append(sponsorTemplate({sponsor : sponsor}));
                 });
-            });    
+            });
         });
-    };
+    }
 
     // Get the organizers
 
     if ($('#organizers').size()) {
         $.get('/templates/organizer.html', function (template) {
             var organizerTemplate = _.template(template);
-            $.get('data/organizers.json', function (data) {
-                _.each(_.shuffle(data), function (organizer) {
+            $.get('/data/organizers.json', function (data) {
+                _.each(data, function (organizer) {
                     $('#organizers').append(organizerTemplate({organizer : organizer}));
                 });
-            });    
+            });
         });
-    };
+    }
 
-    // Anything else
+    if ($('#schedule').size()) {
+        $.get('/templates/schedule.html', function (template) {
+            var scheduleTemplate = _.template(template);
+            $.getJSON('/data/schedule.json', function (data) {
+                $('#schedule').append(scheduleTemplate({ schedule: data }));
+
+                var firstClick = true;
+
+                $('.filter-checkbox').click(function () {
+                    if (firstClick) {
+                        $('.activitie').hide();
+                        firstClick = false;
+                    }
+                    if (this.checked) {
+                        $('.' + $(this).attr('data-toggle')).show();
+                    }
+                    else {
+                        $('.' + $(this).attr('data-toggle')).hide();
+                    }
+                    if ($('.filter-checkbox:checked').size() === 0) {
+                        $('.activitie').show();
+                    }
+                });
+
+            });
+        });
+    }
 
 });

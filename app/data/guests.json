@@ -35,6 +35,16 @@
         "bg": "url('../images/guests/SantiagoGamboa.png') top right no-repeat"
     },
     {
+        "name": "Juan Esteban Constaín",
+        "pitch": "Escritor e historiador",
+        "social": {
+            "facebook": "https://www.facebook.com/juan.e.croce?ref=ts&fref=ts",
+            "twitter": ""
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/JuanEstebanConstin.jpg') top right no-repeat"
+    },
+    {
         "name": "Carolina Sanín",
         "pitch": "Escritora",
         "social": {
@@ -44,23 +54,10 @@
         "bg": "url('../images/guests/CarolinaSanin.png') top left no-repeat"
     },
     {
-        "name": "PowerPaola",
-        "pitch": "Ilustradora.",
-        "social": {
-            "blogger": "http://powerpaola.blogspot.com/",
-            "facebook": "",
-            "twitter": "https://twitter.com/powerpaola",
-            "flickr": "http://www.flickr.com/photos/powerpaola/"
-        },
-        "country": "Colombia",
-        "bg": "url('../images/guests/PowerPaola.png') top right no-repeat"
-    },
-    {
         "name": "Andrés Ospina",
         "pitch": "Escritor y realizador de radio",
         "social": {
             "url": "http://andresospina.com/contenidos/",
-            "facebook": "",
             "twitter": "https://twitter.com/elBlogotazo"
         },
         "country": "Colombia",
@@ -88,26 +85,6 @@
         "bg": "url('../images/guests/JimPluk.png') top right no-repeat"
     },
     {
-        "name": "Mariana Gil Rios",
-        "pitch": "Ilustradora",
-        "social": {
-            "blogger": "http://chicosconpoderes.blogspot.com/p/about.html ",
-            "twitter": "https://twitter.com/ninjamariana",
-            "flickr": "http://www.flickr.com/people/pecesestrellasyninjas/"
-        },
-        "country": "Colombia",
-        "bg": "url('../images/guests/MarianaGil.png') top left no-repeat"
-    },
-    {
-        "name": "Catalina González",
-        "pitch": "Poeta y editora.",
-        "social": {
-            "url": "http://www.lunalibros.com/"
-        },
-        "country": "Colombia",
-        "bg": "url('../images/guests/CatalinaGonzalez.png') top left no-repeat"
-    },
-    {
         "name": "Carolina Rey",
         "pitch": "Editora Rey+Naranjo",
         "social": {
@@ -115,17 +92,6 @@
         },
         "country": "Colombia",
         "bg": "url('../images/guests/CarolinaRey.png') top right no-repeat"
-    },
-    {
-        "name": "Tomas David Rubio",
-        "pitch": "Librero",
-        "social": {
-            "blogger": "http://tresdependientes.blogspot.com/",
-            "facebook": "https://www.facebook.com/libelulalibros",
-            "twitter": "https://twitter.com/libelulalibros"
-        },
-        "country": "Colombia",
-        "bg": null
     },
     {
         "name": "Carlos Gaviria Díaz",
@@ -148,11 +114,36 @@
         "bg": "url('../images/guests/FelipeGonzalez.png') top left no-repeat"
     },
     {
-        "name": "Carlos Augusto Jaramillo",
-        "pitch": "Escritor y editor.",
-        "social": {},
+        "name": "Catalina González",
+        "pitch": "Poeta y editora Luna Libros",
+        "social": {
+            "url": "http://www.lunalibros.com/"
+        },
         "country": "Colombia",
-        "bg": "url('../images/guests/CarlosJaramillo.png') top left no-repeat"
+        "bg": "url('../images/guests/CatalinaGonzalez.png') top left no-repeat"
+    },
+    {
+        "name": "PowerPaola",
+        "pitch": "Ilustradora.",
+        "social": {
+            "blogger": "http://powerpaola.blogspot.com/",
+            "facebook": "",
+            "twitter": "https://twitter.com/powerpaola",
+            "flickr": "http://www.flickr.com/photos/powerpaola/"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/PowerPaola.png') top right no-repeat"
+    },
+    {
+        "name": "Mariana Gil Rios",
+        "pitch": "Ilustradora",
+        "social": {
+            "blogger": "http://chicosconpoderes.blogspot.com/p/about.html ",
+            "twitter": "https://twitter.com/ninjamariana",
+            "flickr": "http://www.flickr.com/people/pecesestrellasyninjas/"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/MarianaGil.png') top left no-repeat"
     },
     {
         "name": "Bernardo Jaramillo Hoyos",
@@ -177,13 +168,56 @@
         "bg": "url('../images/guests/Pala.png') top left no-repeat"
     },
     {
-        "name": "Margarita Arias",
-        "pitch": "Escritora y traductora",
+        "name": "Heriberto Fiorillo",
+        "pitch": "Escritor y periodista",
         "social": {
-            "twitter": "https://twitter.com/eavemaria"
+            "facebook": "https://www.facebook.com/pages/Heriberto-Fiorillo/293809340666698",
+            "twitter": "https://twitter.com/HFiorillo"
         },
         "country": "Colombia",
-        "bg": "url('../images/guests/MargaritaArias.png') top left no-repeat"
+        "bg": "url('../images/guests/HeribertoFiorillo.jpg') top right no-repeat"
+    },
+    {
+        "name": "Tomás David Rubio",
+        "pitch": "Librero",
+        "social": {
+            "blogger": "http://tresdependientes.blogspot.com/",
+            "facebook": "https://www.facebook.com/libelulalibros",
+            "twitter": "https://twitter.com/libelulalibros",
+            "url": "http://www.libelulalibros.com/"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/TomasRubio.jpg') top right no-repeat"
+    },
+    {
+        "name": "Christian Camilo Londoño",
+        "pitch": "Librero",
+        "social": {
+            "blogger": "http://tresdependientes.blogspot.com/",
+            "facebook": "https://www.facebook.com/libelulalibros",
+            "twitter": "https://twitter.com/libelulalibros",
+            "url": "http://www.libelulalibros.com/"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/CristianLondono.jpg') top right no-repeat"
+    },
+    {
+        "name": "Fernando Alonso Ramirez",
+        "pitch": "Abogado y periodista",
+        "social": {
+            "twitter": "https://twitter.com/fernalonso"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/FernandoRamirez.jpg') top left no-repeat"
+    },
+    {
+        "name": "Gustavo Adolfo López",
+        "pitch": "Médico y escritor",
+        "social": {
+            "facebook": "https://www.facebook.com/glopezramirez"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/GustavoLopez.jpg') top left no-repeat"
     },
     {
         "name": "Carlos Augusto Montoya",
@@ -200,10 +234,53 @@
         "bg": null
     },
     {
-        "name": "Adolfo Leon Grisales",
+        "name": "Adolfo León Grisales",
         "pitch": "Filósofo",
         "social": {},
         "country": "Colombia",
         "bg": "url('../images/guests/AdolfoGrisales.png') top left no-repeat"
+    },
+    {
+        "name": "Maria Paulina Restrepo",
+        "pitch": "Ilustradora y artista",
+        "social": {
+            "facebook": "https://www.facebook.com/mariarestrepoc",
+            "twitter": "http://twitter.com/mariap_restrepo"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/MariaRestrepo.png') top right no-repeat"
+    },
+    {
+        "name": "Carlos Augusto Jaramillo",
+        "pitch": "Escritor y editor",
+        "social": {},
+        "country": "Colombia",
+        "bg": "url('../images/guests/CarlosJaramillo.png') top left no-repeat"
+    },
+    {
+        "name": "Margarita Arias",
+        "pitch": "Escritora y traductora",
+        "social": {
+            "twitter": "https://twitter.com/eavemaria"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/MargaritaArias.png') top left no-repeat"
+    },
+    {
+        "name": "Hernando Salazar Patiño",
+        "pitch": "Experto en cultura y literatura caldense",
+        "social": {},
+        "country": "Colombia",
+        "bg": "url('../images/guests/HernandoSalazar.jpg') top right no-repeat"
+    },
+    {
+        "name": "Juan Carlos Acevedo",
+        "pitch": "Poeta, ensayista, periodista cultural",
+        "social": {
+            "facebook": "https://www.facebook.com/juancarlos.acevedoramos",
+            "blogger": "http://santosoficios.blogspot.com/"
+        },
+        "country": "Colombia",
+        "bg": "url('../images/guests/JuanAcevedo.jpg') top left no-repeat"
     }
 ]

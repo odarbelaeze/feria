@@ -139,9 +139,11 @@ hr {
     margin: 30px 0;
 }
 
-
-
 // Description
+
+#description {
+    margin-top: -50px;
+}
 
 #description p.nofirst {
     display: none;
@@ -255,6 +257,10 @@ footer {
     }
 }
 
+.author .content .muted a {
+    color: $grayDarker;
+}
+
 // About
 
 .about section:nth-child(odd) {
@@ -320,4 +326,9 @@ footer {
 .modal-header {
     border-bottom: 1px solid $grayLighter;
     padding-top: 20px;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: rgba(255, 255, 255, 0.3) !important;
 }

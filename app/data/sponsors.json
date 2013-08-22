@@ -1,56 +1,92 @@
 [
     {
         "name": "CHEC | Grupo EPM",
-        "img": "../images/sponsors/chec.png",
+        "img": "chec.png",
         "url": "http://www.chec.com.co/",
         "type": "std"
     },
     {
-        "name": "El malpensante",
-        "img": "../images/sponsors/elMalpensante.png",
-        "url": "http://www.elmalpensante.com.co/",
-        "type": "std"
-    },
-    {
-        "name": "Casa editorial el Tiempo",
-        "img": "../images/sponsors/elTiempo.png",
-        "url": "http://www.eltiempo.com/",
-        "type": "ally"
-    },
-    {
-        "name": "Star Comunicaciones",
-        "url": "http://www.starcomunicaciones.info/",
-        "img": "../images/sponsors/starComunicaciones.png",
-        "type": "std"
-    },
-    {
-        "name": "Banco de la República",
-        "url": "http://www.banrepcultural.org/manizales",
-        "img": "../images/sponsors/BanRep.png",
+        "name": "Plot | Impresión digital",
+        "img": "plot.png",
+        "url": "mailto:plotimpresiond@gmail.com",
         "type": "std"
     },
     {
         "name": "Dirección de investigaciones de Manizales",
         "url": "http://portal.manizales.unal.edu.co/dima/",
-        "img": "../images/sponsors/dimaunal.png",
+        "img": "dimaunal.png",
         "type": "std"
     },
     {
-        "name": "Consultorio de diseño visual",
-        "url": "http://www.disenovisual.com/portal/consultorio.html",
-        "img": "../images/sponsors/consultorioDiseno.png",
+        "name": "Star Comunicaciones",
+        "url": "http://www.starcomunicaciones.info/",
+        "img": "starComunicaciones.png",
+        "type": "std"
+    },
+    {
+        "name": "El malpensante",
+        "img": "elMalpensante.png",
+        "url": "http://www.elmalpensante.com/",
+        "type": "std"
+    },
+    {
+        "name": "Escuela de Carabineros Alejandro Gutiérrez",
+        "img": "escuelaDeCarabineros.png",
+        "url": "http://www.policia.gov.co/portal/page/portal/UNIDADES_POLICIALES/Escuelas_formacion/Alejandro_gutierrrez",
+        "type": "std"
+    },
+    {
+        "name": "Emas",
+        "img": "emas.png",
+        "url": "http://www.emas.com.co/",
+        "type": "std"
+    },
+    {
+        "name": "Instituto de Cultura y Turismo de Manizales",
+        "url": "http://www.culturayturismomanizales.gov.co/",
+        "img": "logo-alcaldia.png",
+        "type": "std"
+    },
+    {
+        "name": "Oficina de Egresados Universidad de Caldas",
+        "url": "http://egresados.ucaldas.edu.co/",
+        "img": "egresados.png",
         "type": "std"
     },
     {
         "name": "Colegio San Luis Gonzaga",
         "url": "http://www.sanluisgonzaga.edu.co/",
-        "img": "../images/sponsors/sanLuis.png",
+        "img": "sanLuis.png",
+        "type": "std"
+    },
+    {
+        "name": "Palabra Kadabra",
+        "url": "https://www.facebook.com/groups/171282272926283/?fref=ts",
+        "img": "palabraKadabra.png",
         "type": "std"
     },
     {
         "name": "Plan Nacional de Lectura y Escritura",
         "url": "http://www.colombiaaprende.edu.co/html/micrositios/1752/w3-propertyname-3032.html",
-        "img": "../images/sponsors/fce.png",
+        "img": "pnlyb.png",
+        "type": "std"
+    },
+    {
+        "name": "Banco de la República | Área Cultural Manizales",
+        "url": "http://www.banrepcultural.org/manizales",
+        "img": "BanRep.png",
+        "type": "std"
+    },
+    {
+        "name": "Consultorio de diseño visual",
+        "url": "http://www.disenovisual.com/portal/consultorio.html",
+        "img": "consultorioDiseno.png",
+        "type": "std"
+    },
+    {
+        "name": "Chicos del Jardín | Ingeniería Teatral",
+        "url": "https://twitter.com/chicosdeljardin",
+        "img": "chicos.png",
         "type": "std"
     }
 ]

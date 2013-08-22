@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Universidad de Caldas",
+        "url": "http://ucaldas.edu.co/",
+        "img": "../images/organizers/ucaldas.png"
+    },
+    {
+        "name": "Editorial Universidad de Caldas",
+        "url": "http://editorialucaldas.edu.co/",
+        "img": "../images/organizers/editorialUcaldas.png"
+    },
+    {
+        "name": "Festival de teatro de Manizales",
+        "url": "http://www.festivaldemanizales.com/",
+        "img": "../images/organizers/festivaldemanizales.png"
+    }
+]

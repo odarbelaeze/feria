@@ -1,0 +1,56 @@
+[
+    {
+        "name": "CHEC | Grupo EPM",
+        "img": "../images/sponsors/chec.png",
+        "url": "http://www.chec.com.co/",
+        "type": "std"
+    },
+    {
+        "name": "El malpensante",
+        "img": "../images/sponsors/elMalpensante.png",
+        "url": "http://www.elmalpensante.com.co/",
+        "type": "std"
+    },
+    {
+        "name": "Casa editorial el Tiempo",
+        "img": "../images/sponsors/elTiempo.png",
+        "url": "http://www.eltiempo.com/",
+        "type": "ally"
+    },
+    {
+        "name": "Star Comunicaciones",
+        "url": "http://www.starcomunicaciones.info/",
+        "img": "../images/sponsors/starComunicaciones.png",
+        "type": "std"
+    },
+    {
+        "name": "Banco de la República",
+        "url": "http://www.banrepcultural.org/manizales",
+        "img": "../images/sponsors/BanRep.png",
+        "type": "std"
+    },
+    {
+        "name": "Dirección de investigaciones de Manizales",
+        "url": "http://portal.manizales.unal.edu.co/dima/",
+        "img": "../images/sponsors/dimaunal.png",
+        "type": "std"
+    },
+    {
+        "name": "Consultorio de diseño visual",
+        "url": "http://www.disenovisual.com/portal/consultorio.html",
+        "img": "../images/sponsors/consultorioDiseno.png",
+        "type": "std"
+    },
+    {
+        "name": "Colegio San Luis Gonzaga",
+        "url": "http://www.sanluisgonzaga.edu.co/",
+        "img": "../images/sponsors/sanLuis.png",
+        "type": "std"
+    },
+    {
+        "name": "Plan Nacional de Lectura y Escritura",
+        "url": "http://www.colombiaaprende.edu.co/html/micrositios/1752/w3-propertyname-3032.html",
+        "img": "../images/sponsors/fce.png",
+        "type": "std"
+    }
+]

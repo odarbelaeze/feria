@@ -1,0 +1,296 @@
+[
+    {
+        "stands": ["1"],
+        "name": "Centro de  Estudios Políticos",
+        "url": null,
+        "logo": "fba.png"
+    },
+    {
+        "stands": ["2"],
+        "name": "Feria Gráfica de Manizales",
+        "url": null,
+        "logo": null
+    },
+    {
+        "stands": ["3"],
+        "name": "Plan Nacional de Lectura",
+        "url": "http://www.bibliotecanacional.gov.co/content/plan-nacional-de-lectura-y-bibliotecas-0",
+        "logo": "pnlyb.png"
+    },
+    {
+        "stands": ["4A"],
+        "name": "LPG arte y Gastronomía",
+        "url": "https://www.facebook.com/groups/319315594837931/",
+        "logo": "lpg.png"
+    },
+    {
+        "stands": ["4B,5"],
+        "name": "El Malpensante",
+        "url": "http://www.elmalpensante.com/",
+        "logo": "elmalpensante.png"
+    },
+    {
+        "stands": ["6"],
+        "name": "Trueque del libro - U de Caldas",
+        "url": "http://www.ucaldas.edu.co/index.php?option=com_content&view=category&id=191&Itemid=676",
+        "logo": null
+    },
+    {
+        "stands": ["7A"],
+        "name": "La Naranja Rosada",
+        "url": "https://www.facebook.com/pages/La-Naranja-Rosada/429351550445915",
+        "logo": "lnr.png"
+    },
+    {
+        "stands": ["7B"],
+        "name": "American Bussines School",
+        "url": "http://www.american.edu.co/",
+        "logo": null
+    },
+    {
+        "stands": ["8A, 11 B"],
+        "name": "Imaginart",
+        "url": null,
+        "logo": null
+    },
+    {
+        "stands": ["8B"],
+        "name": "Tienda U",
+        "url": "http://www.ucaldas.edu.co/tienda/",
+        "logo": null
+    },
+    {
+        "stands": ["9A"],
+        "name": "Emas",
+        "url": "http://www.emas.com.co/",
+        "logo": null
+    },
+    {
+        "stands": ["10A"],
+        "name": "Lomo de Gato",
+        "url": "https://www.facebook.com/gatodesarmado?fref=ts",
+        "logo": null
+    },
+    {
+        "stands": ["12"],
+        "name": "Ecoe Ediciones",
+        "url": "http://www.ecoeediciones.com/portal/",
+        "logo": "ecoe.png"
+    },
+    {
+        "stands": ["13"],
+        "name": "Distribuidora Universitaria de Libros",
+        "url": "http://www.universilibros.com/",
+        "logo": "universilibros.jpg"
+    },
+    {
+        "stands": ["14"],
+        "name": "ICANH",
+        "url": "http://www.icanh.gov.co/",
+        "logo": "icanh.png"
+    },
+    {
+        "stands": ["15"],
+        "name": "Librería Paulinas",
+        "url": "http://libreriapaulinas.com/content/manizales",
+        "logo": null
+    },
+    {
+        "stands": ["17,18"],
+        "name": "Siglo del Hombre",
+        "url": "http://www.siglodelhombre.com/shop.asp",
+        "logo": "she.jpg"
+    },
+    {
+        "stands": ["19,21"],
+        "name": "LD",
+        "url": null,
+        "logo": null
+    },
+    {
+        "stands": ["20,22"],
+        "name": "Policía Nacional - Escuela de Carabineros Alejandro Gutiérrez",
+        "url": "http://www.policia.gov.co/portal/page/portal/UNIDADES_POLICIALES/Escuelas_formacion/Alejandro_gutierrrez",
+        "logo": "escuelacarabineros.png"
+    },
+    {
+        "stands": ["23"],
+        "name": "Universidad Nacional de Colombia",
+        "url": "http://portal.manizales.unal.edu.co/dima/",
+        "logo": "unc.png"
+    },
+    {
+        "stands": ["24"],
+        "name": "Revista Semana",
+        "url": "http://www.semana.com/Home",
+        "logo": null
+    },
+    {
+        "stands": ["25"],
+        "name": "Revista Paso de Gato",
+        "url": "http://pasodegato.com/sitio/",
+        "logo": null
+    },
+    {
+        "stands": ["26"],
+        "name": "Diaz de Santos",
+        "url": "http://www.diazdesantos.com.co/",
+        "logo": "dds.png"
+    },
+    {
+        "stands": ["27"],
+        "name": "Editorial Universidad de Caldas",
+        "url": "http://editorialucaldas.edu.co/",
+        "logo": "editorialucaldas.png"
+    },
+    {
+        "stands": ["28"],
+        "name": "Old Machine",
+        "url": null,
+        "logo": "oldmachine.jpg"
+    },
+    {
+        "stands": ["29"],
+        "name": "Agustin Codazzi",
+        "url": "http://www.igac.gov.co/igac",
+        "logo": null
+    },
+    {
+        "stands": ["30"],
+        "name": "Hola Japón",
+        "url": null,
+        "logo": "holajapon.png"
+    },
+    {
+        "stands": ["31"],
+        "name": "Primavara",
+        "url": null,
+        "logo": "primavara.png"
+    },
+    {
+        "stands": ["32"],
+        "name": "Rey+Naranjo",
+        "url": "http://www.reynaranjo.net/",
+        "logo": null
+    },
+    {
+        "stands": ["33"],
+        "name": "Apidama Ediciones",
+        "url": "http://apidama.com/",
+        "logo": "apidama.png"
+    },
+    {
+        "stands": ["34,35,36"],
+        "name": "Fondo de Cultura Ecónomica",
+        "url": "http://www.fondodeculturaeconomica.com/",
+        "logo": "fce.png"
+    },
+    {
+        "stands": ["37"],
+        "name": "Babel Libros",
+        "url": "http://babellibros.com.co/joomla/index.php?option=com_content&view=frontpage&Itemid=71",
+        "logo": "babel.png"
+    },
+    {
+        "stands": ["38"],
+        "name": "Universidad Autonoma de Manizales",
+        "url": "http://www.autonoma.edu.co/",
+        "logo": "uam.png"
+    },
+    {
+        "stands": ["39"],
+        "name": "Distrididactika",
+        "url": "http://www.distrididactika.com/",
+        "logo": null
+    },
+    {
+        "stands": ["40"],
+        "name": "Ideartes",
+        "url": "http://www.ideartes.edu.co/",
+        "logo": null
+    },
+    {
+        "stands": ["41"],
+        "name": "Diproarte",
+        "url": "https://www.facebook.com/pages/DIPROARTE-SAS/238694672827053",
+        "logo": null
+    },
+    {
+        "stands": ["42"],
+        "name": "Luminautas",
+        "url": "http://editorialucaldas.edu.co/libros/luminautas/",
+        "logo": null
+    },
+    {
+        "stands": ["43"],
+        "name": "Editorial 531",
+        "url": "https://www.facebook.com/Editoral531.Fan",
+        "logo": "editorial531.png"
+    },
+    {
+        "stands": ["44"],
+        "name": "Aseuc",
+        "url": "http://www.aseuc.org.co/",
+        "logo": "aseuc.png"
+    },
+    {
+        "stands": ["45"],
+        "name": "Taller de Edición Rocca",
+        "url": "http://www.tallerdeedicion.com/",
+        "logo": "rocca.png"
+    },
+    {
+        "stands": ["46"],
+        "name": "Libélula Libros",
+        "url": "http://www.libelulalibros.com/",
+        "logo": "libelula.jpg"
+    },
+    {
+        "stands": ["47"],
+        "name": "Laguna Libros",
+        "url": "http://www.lagunalibros.com/",
+        "logo": null
+    },
+    {
+        "stands": ["47"],
+        "name": "Editorial Destiempo",
+        "url": "https://www.facebook.com/pages/Destiempo-Libros/345526502154224",
+        "logo": null
+    },
+    {
+        "stands": ["47"],
+        "name": "Jardín Publicaciones",
+        "url": "http://jardinpublicaciones.com/",
+        "logo": null
+    },
+    {
+        "stands": ["47"],
+        "name": "El Peregrino Ediciones",
+        "url": "http://www.elperegrinoediciones.com/",
+        "logo": null
+    },
+    {
+        "stands": ["47"],
+        "name": "Luna Libros",
+        "url": "http://www.lunalibros.com/",
+        "logo": null
+    },
+    {
+        "stands": ["47"],
+        "name": "Editorial Robot",
+        "url": "http://www.editorialrobot.com/",
+        "logo": null
+    },
+    {
+        "stands": ["47"],
+        "name": "La Silueta Ediciones",
+        "url": "http://www.lasilueta.com/",
+        "logo": null
+    },
+    {
+        "stands": ["48"],
+        "name": "El Tiempo",
+        "url": "http://www.eltiempo.com/",
+        "logo": null
+    }
+]

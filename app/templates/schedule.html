@@ -1,24 +1,23 @@
 <div id="schedule-accordion" class="accordion">
-    <% _.each(schedule.schedule, function(day) { %>
+    <% _.each(schedule.schedule, function(activities, day) { %>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#schedule-accordion" href="#day-<%= day.id %>">
-                <%= day.date %>
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#schedule-accordion" href="#day-<%= day %>">
+                <%= schedule.filters.dates[day] %>
             </a>
         </div>
-        <div id="day-<%= day.id %>" class="accordion-body collapse">
+        <div id="day-<%= day %>" class="accordion-body collapse">
             <div class="accordion-inner">
-                <table class="table-hover table-condensed">
-                    <tbody>
-                        <% _.each(day.activities, function(activitie) { %>
-                        <tr class="activitie place-<%= activitie.place %> <% _.each(activitie.type, function(type) { %> type-<%= type %> <% }) %> <% _.each(activitie.public, function(public) { %> public-<%= public %> <% }) %>">
-                            <th><%= activitie.time.substr(0,5) %></th>
-                            <td><%= schedule.filters.places[activitie.place] %></td>
-                            <td><%= activitie.name %></td>
-                        </tr>
-                        <% }) %>
-                    </tbody>
-                </table>
+                <% _.each(activities, function(activitie) { %>
+                <article class="activitie place-<%= activitie.place %> <% _.each(activitie.type, function(type) { %> type-<%= type %> <% }) %> <% _.each(activitie.public, function(public) { %> public-<%= public %> <% }) %>">
+
+                    <strong><%= activitie.time %>: <%= activitie.name %></strong>
+                    <p>
+                        Lugar: <%= schedule.filters.places[activitie.place] %> <br>
+                        Encargado: <%= activitie.in_charge %>
+                    </p>
+                </article>
+                <% }) %>
             </div>
         </div>
     </div>
@@ -40,7 +39,7 @@
             </form>
         </div>
         <div class="span4">
-            <h4>Público</h4>
+            <h4>Típo de actividad</h4>
             <form action="" class="form-horizontal">
                 <div class="control-group">
                     <% for(var type in schedule.filters.types) { %>
@@ -53,7 +52,7 @@
             </form>
         </div>
         <div class="span4">
-            <h4>Típo de actividad</h4>
+            <h4>Público</h4>
             <form action="" class="form-horizontal">
                 <div class="control-group">
                     <% for(var public in schedule.filters.publics) { %>

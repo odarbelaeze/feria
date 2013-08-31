@@ -112,18 +112,18 @@ require(['app', 'jquery', 'marked', 'underscore', 'bootstrap'], function (app, $
         });
     }
 
+    // Set up the schedule
+
     if ($('#schedule').size()) {
         $.get('/templates/schedule.html', function (template) {
             var scheduleTemplate = _.template(template);
             $.getJSON('/data/schedule.json', function (data) {
+                data.schedule = _.groupBy(data.activities, function(activitie) { return activitie.day; } );
                 $('#schedule').append(scheduleTemplate({ schedule: data }));
 
-                var firstClick = true;
-
                 $('.filter-checkbox').click(function () {
-                    if (firstClick) {
+                    if ($('.filter-checkbox:checked').size() === 1) {
                         $('.activitie').hide();
-                        firstClick = false;
                     }
                     if (this.checked) {
                         $('.' + $(this).attr('data-toggle')).show();
@@ -136,6 +136,22 @@ require(['app', 'jquery', 'marked', 'underscore', 'bootstrap'], function (app, $
                     }
                 });
 
+            });
+        });
+    }
+
+    // Set up the exhibitors
+
+    if ($('#exhibitor-list').size()) {
+        $.get('/templates/exhibitor-list.html', function (template) {
+            var exhibitorsTemplate = _.template(template);
+            $.getJSON('/data/exhibitors.json', function (data) {
+                var sortedData = _.sortBy(data, function (exhibitor) { return (exhibitor.logo === null); } );
+                var i = 0;
+                while (i < data.length) {
+                    $('#exhibitor-list').append(exhibitorsTemplate({ exhibitors: sortedData.slice(i, i + 2) }));
+                    i = i + 2;
+                }
             });
         });
     }

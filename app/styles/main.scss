@@ -20,10 +20,22 @@ h1, h2, h3, h4 {
     color: #512716;
 }
 
+
 h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter {
     font-size: 200%;
     vertical-align: middle;
     color: $red;
+}
+
+h4.media-heading {
+    font-family: frankfurt;
+}
+
+h4.media-heading::first-letter {
+    color: inherit;
+    font-size: 18.75px;
+    vertical-align: inherit;
+    font-family: frankfurt;
 }
 
 // responsive header
@@ -232,9 +244,12 @@ hr {
     padding: 5px;
 }
 
-.sponsor img,
-.organizer img {
+.sponsor img {
     height: 48px;
+}
+
+.organizer img {
+    height: 64px;
 }
 
 // Footer
@@ -244,7 +259,7 @@ footer {
     max-width: 768px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     padding-top: 20px; 
     margin-top: 100px;
     box-shadow: 0px -7px 5px -5px $black;
@@ -328,7 +343,27 @@ footer {
     padding-top: 20px;
 }
 
+.modal-body {
+    text-align: left;
+}
+
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
     background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+// Exhibitors
+
+.exhibitor {
+    text-align: left;
+}
+
+.exhibitor .logo {
+    display: inline-block;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.media-body {
+    padding-left: 10px;
 }

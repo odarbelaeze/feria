@@ -1,0 +1,19 @@
+<div class="row-fluid">
+    <% _.each(exhibitors, function (exhibitor) { %>
+    <article class="exhibitor span6">
+        <div class="pull-left logo">
+            <% if (exhibitor.logo !== null) { %>
+            <img src="/images/exhibitors/<%= exhibitor.logo %>" width=50px alt="<%= exhibitor.name %>" />
+            <% } %>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">
+                <%= exhibitor.name %>
+            </h4>
+            <p>
+                <a href="<%= exhibitor.url %>"><%= exhibitor.url %></a>
+            </p>
+        </div>
+    </article>
+    <% }) %>
+</div>
